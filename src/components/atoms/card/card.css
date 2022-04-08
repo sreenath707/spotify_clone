@@ -1,0 +1,21 @@
+.card-image{
+    height: 180px;
+    width: 180px;
+    border-radius: 7px;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: rgba(255,255,245,0.1);
+    padding: 20px;
+    width: 180px ;
+    border-radius: 7px;
+    margin: 10px;
+}
+
+.card-title{
+    width: 100%;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
