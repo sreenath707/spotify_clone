@@ -6,6 +6,7 @@ import LibraryBooksIcon from '@mui/icons-material/LibraryBooks';
 import AddBoxIcon from '@mui/icons-material/AddBox';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import MainPage from "./mainpage";
+import Player from "../Player";
 
 function HomePage(){
 
@@ -53,6 +54,7 @@ function HomePage(){
                 <MainPage/>
             </div>
             <div className="bottom-home">
+                <Player/>
             </div>
         </div>
     )
