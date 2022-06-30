@@ -1,5 +1,5 @@
-import React from 'react';
-import './banner.css';
+import React from "react";
+import "./banner.css";
 
 function index() {
   return (
@@ -16,12 +16,13 @@ function index() {
         <p>New Music From Bollywood! cover: The Warrior</p>
         <div className="playlist-data">
           <img
-            src="https://imgs.search.brave.com/Uvz_aVxnWcbEnsLHUhKhk2adQBq6umzS6aw2mV403as/rs:fit:545:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5N/V2lGRE11bXR0aEFW/MFpqUmJfYmF3SGFH/YyZwaWQ9QXBp"
+            src="https://www.pngmart.com/files/22/Spotify-Logo-PNG-Transparent.png"
             alt="spotify-logo"
-            className="spotify-logo"
+            className="spotify-logo-playlist"
           />
           <p>
-            Spotify <span className='dot'> . </span>243,869 Likes <span className='dot'> . </span>84 songs, <span>5hr 23min</span>
+            Spotify <span className="dot"> . </span>243,869 Likes{" "}
+            <span className="dot"> . </span>84 songs, <span>5hr 23min</span>
           </p>
         </div>
       </div>

@@ -1,22 +1,8 @@
 .header {
   display: flex;
   flex-direction: row;
-  /* justify-content: space-between; */
+  justify-content: space-between;
   align-items: center;
-  padding: 5px;
-}
-
-.header-left {
-  display: flex;
-  flex-direction: row;
-}
-
-.header-icon {
-  background-color: #000;
-  border-radius: 50%;
-  padding: 4px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-right: 5px;
+  padding: 10px;
+  padding-left: 20px;
 }
