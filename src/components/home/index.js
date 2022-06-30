@@ -8,8 +8,8 @@ function HomePage() {
     <div className="home">
       <div className="top-home">
         <SideBar />
-        <MainPage />
-        {/* <Playlist /> */}
+        {/* <MainPage /> */}
+        <Playlist />
         <div className="bottom-home">
           <Player />
         </div>
