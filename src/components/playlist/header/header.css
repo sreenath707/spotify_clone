@@ -3,6 +3,12 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
-  padding-left: 20px;
+}
+
+.header-left {
+  padding: 10px 20px;
+}
+
+.header-right {
+  padding: 10px 20px;
 }
