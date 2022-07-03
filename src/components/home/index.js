@@ -1,15 +1,19 @@
 import "./home.css";
 import Player from "../Player";
 import MainPage from "./mainpage";
-import SideBar from "./sideBar";
 import Playlist from "../playlist";
+import Sidebar from "../sidebar";
+import { useState } from "react";
 function HomePage() {
+  const [isHome, setIsHome] = useState(true);
+
   return (
     <div className="home">
       <div className="top-home">
-        <SideBar />
-        {/* <MainPage /> */}
-        <Playlist />
+        {/* <Playlist /> */}
+        <Sidebar setIsHome={setIsHome} />
+        {isHome ? <MainPage /> : <Playlist />}
+
         <div className="bottom-home">
           <Player />
         </div>

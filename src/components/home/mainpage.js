@@ -3,6 +3,7 @@ import MainCard from "./mainCard";
 import { useState } from "react";
 import HomeList from "./homeList";
 import NavButtons from "../atoms/navButtons";
+import { Link } from "react-router-dom";
 
 function MainPage() {
   const [topContent, setTopContent] = useState([
@@ -41,7 +42,9 @@ function MainPage() {
     <div className="main-home">
       <div className="header">
         <NavButtons />
-        <div className="user-container">sreenath sharma</div>
+        <Link to="/signin">
+          <div className="user-container">sreenath sharma</div>
+        </Link>
       </div>
       <div className="main-top">
         <h1>Good evening</h1>
