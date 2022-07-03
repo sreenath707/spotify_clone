@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Signika:wght@300;400&display=swap");
+
+.signUp {
+  height: 100vh;
+  width: 100%;
+  background: rgb(195, 39, 19);
+  color: white;
+  background: linear-gradient(
+    90deg,
+    rgba(195, 39, 19, 1) 0%,
+    rgba(148, 148, 208, 0.9755252442773985) 0%,
+    rgba(160, 158, 209, 1) 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Signika", sans-serif;
+}
+
+.signUp__form {
+  height: 700px;
+  width: 450px;
+  background-color: black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px 0px;
+}
+
+.signUp__form img {
+  width: 130px;
+  margin-bottom: 40px;
+}
+
+.signUp__form__fields {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.signUp__form__fields h1 {
+  color: white;
+  padding: 0 100px;
+}
+
+.signUp__form__fields button {
+  background-color: #1db954;
+  border: none;
+  width: 300px;
+  padding: 15px 0px;
+  border-radius: 100px;
+  color: white;
+  font-weight: 550;
+  letter-spacing: 2px;
+  margin-top: 10px;
+}
+
+.signUp__field {
+  margin: 7px;
+  background-color: #404040;
+  color: #C8C8C8;
+  font: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+::placeholder {
+  color: #ACB2B8;
+}
+
+.signUp__field input {
+  border: none;
+  width: 250px;
+  padding: 8px;
+  color: #ACB2B8;
+  background-color: #404040;
+  outline: none;
+}
+
+.signUp__field .signUp__icon {
+  padding: 6px;
+  color: #ACB2B8;
+  font-weight: 100;
+}
+
+.signUp__partition {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signUp__partition p {
+  font-weight: 400;
+  font-size: small;
+  margin: 10px 0;
+  padding: 20px;
+}
+
+hr {
+  width: 120px;
+  border: none;
+  height: 1px;
+  background-color: white;
+}
+
+.signUp__bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.signUp__bottom .signUp__facebook {
+  border: 1px solid white;
+  border-radius: 100px;
+  padding: 8px;
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.signUp__bottom .signUp__facebook button {
+  color: white;
+  background-color: black;
+  border: none;
+  font-weight: 600;
+  margin-left: 20px;
+}
+
+.signUp__facebook__icon {
+  background-color: #fff;
+  border-radius: 100px;
+
+}
+
+.signUp__bottom h6 {
+  font-size: small;
+  letter-spacing: 2px;
+}
+
+.signUp__back {
+  margin: 10px;
+}
+
+.signUp__back a {
+  color: white;
+  text-decoration: none;
+}
+
+h6 {
+  color: #beb8b1;
+}
+
+h6 a {
+  color: white;
+}

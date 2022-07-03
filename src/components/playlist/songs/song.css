@@ -1,0 +1,111 @@
+.song {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  color: #a7a7a7;
+  align-items: center;
+  font-size: medium;
+  padding: 5px 0;
+}
+
+h4 {
+  margin: 0 !important;
+  font-weight: lighter;
+}
+
+.song:hover {
+  background-color: rgba(40, 43, 53, 0.9);
+  border-radius: 5px;
+}
+
+.song:hover > .song-album,
+.song:hover > .song-title {
+  color: #eeeeee;
+  cursor: pointer;
+}
+
+.song:hover > .song-heart,
+.song:hover > .song-more {
+  opacity: 1;
+}
+
+.song-no {
+  margin: 0 20px;
+  font-size: medium;
+  color: #eeeeee;
+}
+
+.song-title {
+  display: flex;
+  flex: 0.5;
+  flex-direction: row;
+  align-items: center;
+}
+
+.song-title img {
+  width: 45px;
+  height: 45px;
+  object-fit: contain;
+}
+
+.song-title .song-data {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.song-name {
+  color: #eeeeee;
+  font-weight: bold;
+}
+
+.song-artists {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.song-artists li {
+  margin-right: 5px;
+}
+
+.song-album {
+  flex: 0.4;
+}
+
+.song-album:hover,
+.song-artists li:hover {
+  text-decoration: underline;
+}
+
+.song-date-added,
+.song-time {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.song-date-added {
+  flex: 0.15;
+}
+
+.song-heart {
+  display: flex;
+  align-items: center;
+  flex: 0.1;
+  opacity: 0;
+}
+
+.song-time {
+  flex: 0.05;
+}
+
+.song-more {
+  display: flex;
+  flex: 0.05;
+  align-items: center;
+  opacity: 0;
+}

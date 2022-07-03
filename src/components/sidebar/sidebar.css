@@ -1,0 +1,35 @@
+
+  
+  .sidebar_menu {
+    background-color: black;
+    width: 250px;
+    padding: 25px 20px 10px 25px;
+    color: white;
+  }
+  
+  .main_logo {
+    height: 40px;
+  }
+  
+  .sidebar_tag {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+  }
+  
+  .sidebar_tagname {
+    padding-left: 10px;
+  }
+  
+  .sidebar_tags {
+    padding: 20px 0px;
+  }
+  
+  .sidebar_top {
+    margin-bottom: 30px;
+    border-bottom: 1px solid rgba(146, 146, 146, 0.4);
+  }
+  
+  .sidebar_playlist {
+    margin-bottom: 20px;
+  }

@@ -1,0 +1,53 @@
+.banner {
+  padding: 20px;
+  display: flex;
+}
+
+.banner-left img {
+  box-shadow: 0px 0px 71px 8px #000;
+  margin-left: 20px;
+  object-fit: contain;
+  width: 250px;
+  height: 250px;
+}
+
+.banner-right {
+  margin-left: 30px;
+  flex: 1;
+  align-self: flex-end;
+}
+
+.banner-right > h1 {
+  font-size: 5em;
+  margin: 0 0 20px 0 !important;
+}
+
+.banner-right > h3,
+.banner-right > p,
+.banner-right .playlist-data > p {
+  margin: 0px !important;
+  font-weight: bolder;
+}
+
+.banner-right > p,
+.banner-right .playlist-data > p > span {
+  color: #b5b9b4;
+}
+
+.playlist-data {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+  align-items: center;
+}
+
+.spotify-logo-playlist {
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+}
+
+.dot {
+  font-size: 25px;
+  align-items: center;
+}

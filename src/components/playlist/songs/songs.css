@@ -1,0 +1,57 @@
+.songs {
+  padding: 0 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+hr {
+  color: #b3b3b3;
+  width: 100%;
+  border: none;
+  background-color: #b3b3b3;
+  height: 0.5px;
+  margin: 5px 0 0 0 !important;
+}
+
+.songs-top {
+  display: flex;
+  flex-direction: row;
+  color: #a7a7a7;
+  flex: 1;
+  font-size: smaller;
+  align-items: center;
+}
+
+.no {
+  color: #eeeeee;
+  margin: 0 20px;
+  font-size: medium;
+}
+
+.title {
+  flex: 0.5;
+}
+
+.album {
+  flex: 0.4;
+}
+
+.date-added {
+  flex: 0.25;
+}
+
+.time {
+  flex: 0.1;
+}
+
+.title:hover,
+.album:hover,
+.date-added:hover,
+.time:hover {
+  color: #eeeeee;
+  cursor: pointer;
+}
+
+.songs-list {
+  margin-top: 20px;
+}
