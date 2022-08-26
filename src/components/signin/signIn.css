@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Signika:wght@300;400&display=swap");
+*{
+    padding : 0;
+    margin: 0;
+}
+.signIn {
+  height: 100vh;
+  width: 100%;
+  background: rgb(195, 39, 19);
+  color: white;
+  background: linear-gradient(
+    90deg,
+    rgba(195, 39, 19, 1) 0%,
+    rgba(148, 148, 208, 0.9755252442773985) 0%,
+    rgba(160, 158, 209, 1) 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Signika", sans-serif;
+}
+
+.signIn__form {
+  height: 600px;
+  width: 450px;
+  background-color: rgb(0,0,0);
+  border-radius: 10px;
+  display: flex;
+  padding-top: 50px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.signIn__form img {
+  width: 130px;
+  margin-bottom: 40px;
+}
+
+.signIn__form__fields {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.signIn__form__fields h1 {
+  color: white;
+  padding: 0 100px;
+}
+
+.signIn__form__fields button {
+  background-color: #f3f7f4;
+  width: 280px;
+  padding: 10px 0px;
+  border-radius: 100px;
+  color: rgb(19, 18, 18);
+  font-weight: 1000;
+  letter-spacing: 2px;
+  margin-top: 10px;
+}
+
+.signIn__field {
+  padding: 5px;
+}
+
+.signIn__field input {
+  border: none;
+  width: 250px;
+  padding: 8px;
+  color: white;
+  background-color: #555657;
+}
+
+.signIn__reset a {
+    color:#919496;
+}
+.signIn__reset{
+    width: 266px;
+}
+.signIn_switch{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 266px;
+}
+
+.signIn__partition {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signIn__partition p {
+  font-weight: 400;
+  font-size: small;
+  margin: 20px 0;
+  padding: 20px;
+}
+
+hr {
+  width: 100px;
+  border: none;
+  height: 1px;
+  background-color: white;
+}
+
+.signIn__bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 266px;
+}
+
+.signIn__bottom h6 {
+  font-size: small;
+  letter-spacing: 2px;
+}
+
+.signIn__back {
+  margin: 10px;
+}
+
+.signIn__back a {
+  color: white;
+  text-decoration: none;
+}
+
+h6 a {
+  color: white;
+}
